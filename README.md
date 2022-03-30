@@ -26,8 +26,9 @@ Once done, the cleanup task for that area will be marked as completed.
 -
 
 #### Future Scope
--
--
+-Setting reminders for future cleanup events
+-User feedback/reviews page
+-Gamification - Volunteers earn shareable badges based on their contributions & involvement
 
 ## Tech Stack
 
