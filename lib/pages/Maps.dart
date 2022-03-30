@@ -10,7 +10,7 @@ import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:cleanitapp/screens/objClass/MapArguments.dart';
-import 'package:cleanitapp/pages/ProfilePage.dart';
+import 'package:cleanitapp/pages/UploadPage.dart';
 
 class Maps extends StatelessWidget {
 
@@ -142,8 +142,8 @@ class MapSampleState extends State<MapSample> {
                         //   'latitude': lat,
                         //   'longitude': lng
                         // });
-                        Route route = new MaterialPageRoute(builder: (context) => ProfilePage());
-                        Navigator.pushNamed(context, '/ProfilePage'
+                        Route route = new MaterialPageRoute(builder: (context) => UploadPage());
+                        Navigator.pushNamed(context, '/UploadPage'
                         ,arguments: {
                           'latitude': lat,
                           'longitude': lng

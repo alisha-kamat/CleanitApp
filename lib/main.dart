@@ -5,7 +5,7 @@ import 'package:cleanitapp/pages/Maps.dart';
 import 'package:cleanitapp/pages/SignUp.dart';
 import 'package:cleanitapp/services/auth.dart';
 import 'package:cleanitapp/services/Instruction_obj.dart';
-import 'package:cleanitapp/pages/ProfilePage.dart';
+import 'package:cleanitapp/pages/UploadPage.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -15,7 +15,7 @@ void main() async {
     '/':(BuildContext context) => Info(),
     '/SignUp':(BuildContext context) => SignUp(),
     '/Maps':(BuildContext context) => Maps(),
-    '/ProfilePage':(BuildContext context) => ProfilePage(),
+    '/UploadPage':(BuildContext context) => UploadPage(),
   },
     onUnknownRoute: (RouteSettings settings) {
   return MaterialPageRoute<void>(

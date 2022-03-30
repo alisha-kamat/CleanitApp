@@ -7,13 +7,13 @@ import 'dart:io';
 import 'package:cleanitapp/screens/objClass/MapArguments.dart';
 
 
-class ProfilePage extends StatefulWidget {
-  static const routeName = '/ProfilePage';
+class UploadPage extends StatefulWidget {
+  static const routeName = '/UploadPage';
   @override
-  _ProfilePageState createState() => _ProfilePageState();
+  _UploadPageState createState() => _UploadPageState();
 }
 
-class _ProfilePageState extends State<ProfilePage> {
+class _UploadPageState extends State<UploadPage> {
   TextEditingController dateinput = TextEditingController();
   File? _image;
   @override
