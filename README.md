@@ -32,5 +32,8 @@ Once done, the cleanup task for that area will be marked as completed.
 - User feedback/reviews page
 
 ## Tech Stack
+- Dart
+- Flutter
+- Firebase
 
 ## Screenshots
