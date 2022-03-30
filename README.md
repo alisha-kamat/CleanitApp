@@ -1,3 +1,12 @@
+<h1 align="center">
+  CleanitApp
+</h1>
+<div align="center">
+  <strong>CleanitApp</strong> - Helps in cleanup of local areas on a volunteering basis<br>
+  Solution Challenge 2022<br><br>
+</div>
+<hr>
+
 # CleanitApp
 <table>
   <tr>
@@ -10,4 +19,16 @@ Once done, the cleanup task for that area will be marked as completed.
     </td>
   </tr>
  </table>
+ 
+## Features :man_technologist:
+#### Added
+-
+-
 
+#### Future Scope
+-
+-
+
+## Tech Stack
+
+## Screenshots
