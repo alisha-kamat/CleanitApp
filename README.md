@@ -22,8 +22,9 @@ Once done, the cleanup task for that area will be marked as completed.
  
 ## Features :man_technologist:
 #### Added
--
--
+- Upload new cleanup events
+- Volunteer to participate in upcoming cleanup events
+- Provides a list of similar volunteering events nearby
 
 #### Future Scope
 - Gamification - Volunteers earn shareable badges based on their contributions & involvement
