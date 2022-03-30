@@ -2,7 +2,7 @@ import 'package:cleanitapp/services/markerInfo.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'ProfilePage.dart';
+import 'package:cleanitapp/pages/profile_page.dart';
 import 'location_service.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
@@ -11,6 +11,7 @@ import 'package:geolocator/geolocator.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:cleanitapp/screens/objClass/MapArguments.dart';
 import 'package:cleanitapp/pages/UploadPage.dart';
+import 'package:cleanitapp/data/add_event.dart';
 
 class Maps extends StatelessWidget {
 
@@ -54,7 +55,7 @@ class MapSampleState extends State<MapSample> {
 
   CameraPosition _kGooglePlex = CameraPosition(
   target: LatLng(37.42796133580664, -122.085749655962),
-  zoom: 14.4746,
+  zoom: 84.4746,
   );
 
   @override
@@ -142,12 +143,8 @@ class MapSampleState extends State<MapSample> {
                         //   'latitude': lat,
                         //   'longitude': lng
                         // });
-                        Route route = new MaterialPageRoute(builder: (context) => UploadPage());
-                        Navigator.pushNamed(context, '/UploadPage'
-                        ,arguments: {
-                          'latitude': lat,
-                          'longitude': lng
-                        });
+                        // Route route = new MaterialPageRoute(builder: (context) => UploadPage());
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => Add_Event()));
                       },
 
                     ),

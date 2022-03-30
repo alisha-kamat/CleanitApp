@@ -6,13 +6,14 @@ import 'package:cleanitapp/pages/SignUp.dart';
 import 'package:cleanitapp/services/auth.dart';
 import 'package:cleanitapp/services/Instruction_obj.dart';
 import 'package:cleanitapp/pages/UploadPage.dart';
+import 'package:cleanitapp/pages/HomeScreen.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   runApp(MaterialApp(
   initialRoute: '/',
   routes:<String, WidgetBuilder> {
-    '/':(BuildContext context) => Info(),
+    '/':(BuildContext context) => HomeScreen(),
     '/SignUp':(BuildContext context) => SignUp(),
     '/Maps':(BuildContext context) => Maps(),
     '/UploadPage':(BuildContext context) => UploadPage(),

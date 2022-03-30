@@ -6,7 +6,7 @@ import 'package:cleanitapp/models/events_model.dart';
 
 List<DateModel> getDates(){
 
-  List<DateModel> dates = new List<DateModel>();
+  List<DateModel> dates = <DateModel>[];
   DateModel dateModel = new DateModel();
 
   //1
@@ -68,7 +68,7 @@ List<DateModel> getDates(){
 
 List<EventTypeModel> getEventTypes(){
 
-  List<EventTypeModel> events = new List();
+  List<EventTypeModel> events = [];
   EventTypeModel eventModel = new EventTypeModel();
 
   //1
@@ -84,6 +84,14 @@ List<EventTypeModel> getEventTypes(){
   events.add(eventModel);
 
   eventModel = new EventTypeModel();
+
+  //0
+  eventModel.imgAssetPath = "assets/Map.png";
+  eventModel.eventType = "Map";
+  events.add(eventModel);
+
+  eventModel = new EventTypeModel();
+
 
   //3
   eventModel.imgAssetPath = "assets/upload.jpg";
@@ -103,7 +111,7 @@ List<EventTypeModel> getEventTypes(){
 
 List<EventsModel> getEvents(){
 
-  List<EventsModel> events = new List<EventsModel>();
+  List<EventsModel> events = <EventsModel>[];
   EventsModel eventsModel = new EventsModel();
 
   //1
@@ -115,6 +123,14 @@ List<EventsModel> getEvents(){
 
   eventsModel = new EventsModel();
 
+  //2
+  eventsModel.imgeAssetPath = "assets/dirtybeach_2.jpg";
+  eventsModel.date = "May 2, 2022";
+  eventsModel.desc = "Juhu beach cleanup";
+      eventsModel.address = "hyperlink to map";
+  events.add(eventsModel);
+
+  eventsModel = new EventsModel();
   //2
   eventsModel.imgeAssetPath = "assets/dirtybeach_2.jpg";
   eventsModel.date = "May 2, 2022";
@@ -139,7 +155,6 @@ List<EventsModel> getEvents(){
   eventsModel.desc = "Random beach cleanup";
   events.add(eventsModel);
   eventsModel = new EventsModel();
-
 
   return events;
 

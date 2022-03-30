@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:cleanitapp/data/data.dart';
-
+import 'package:cleanitapp/pages/profile_page.dart';
 import 'package:cleanitapp/models/date_model.dart';
 import 'package:cleanitapp/models/event_type_model.dart';
 import 'package:cleanitapp/models/events_model.dart';
+import 'package:cleanitapp/data/add_event.dart';
+import 'package:cleanitapp/pages/Maps.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -12,9 +14,9 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
 
-  List<DateModel> dates = new List<DateModel>();
-  List<EventTypeModel> eventsType = new List();
-  List<EventsModel> events = new List<EventsModel>();
+  List<DateModel> dates = <DateModel>[];
+  List<EventTypeModel> eventsType = [];
+  List<EventsModel> events = <EventsModel>[];
 
 
   String todayDateIs = "12";
@@ -102,11 +104,16 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                           child: ClipRRect(
                               borderRadius: BorderRadius.circular(30),
-                              child: Image.asset("assets/profilepic.jpg", height: 40,)),
+                              child: IconButton(
+                                  icon: Image.asset("assets/profilepic.jpg", height: 40,),
+                                onPressed: (){
+                                  Navigator.push(context, MaterialPageRoute(builder: (context) => ProfilePage()));
+                                },
+                              )),
                         )
                       ],
                     ),
-                    SizedBox(height: 20,),
+                    // SizedBox(height: 20,),
 
                     /// Dates
                     Container(
@@ -138,10 +145,28 @@ class _HomeScreenState extends State<HomeScreen> {
                           shrinkWrap: true,
                           scrollDirection: Axis.horizontal,
                           itemBuilder: (context, index){
-                          return EventTile(
-                            imgAssetPath: eventsType[index].imgAssetPath,
-                            eventType: eventsType[index].eventType,
+                          return ElevatedButton(
+                            child: EventTile(
+                              imgAssetPath: eventsType[index].imgAssetPath,
+                              eventType: eventsType[index].eventType,
+
+                            ),
+                            onPressed: (){
+                              if(index==2) {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) => Maps()));
+                                }
+                              else if(index==3) {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) => Add_Event()));
+                                }
+                              },
                           );
+
                           }),
                     ),
 
@@ -182,7 +207,7 @@ class DateTile extends StatelessWidget {
   String weekDay;
   String date;
   bool isSelected;
-  DateTile({this.weekDay, this.date, this.isSelected});
+  DateTile({required this.weekDay,required this.date,required this.isSelected});
 
   @override
   Widget build(BuildContext context) {
@@ -215,7 +240,7 @@ class EventTile extends StatelessWidget {
 
   String imgAssetPath;
   String eventType;
-  EventTile({this.imgAssetPath, this.eventType});
+  EventTile({required this.imgAssetPath,required this.eventType});
 
   @override
   Widget build(BuildContext context) {
@@ -247,7 +272,7 @@ class UpcomingEventTile extends StatelessWidget {
   String date;
   String address;
   String imgeAssetPath;/// later can be changed with imgUrl
-  UpcomingEventTile({this.address,this.date,this.imgeAssetPath,this.desc});
+  UpcomingEventTile({required this.address,required this.date,required this.imgeAssetPath,required this.desc});
 
   @override
   Widget build(BuildContext context) {
@@ -300,7 +325,7 @@ class UpcomingEventTile extends StatelessWidget {
           ),
           ClipRRect(
               borderRadius: BorderRadius.only(topRight: Radius.circular(8), bottomRight: Radius.circular(8)),
-              child: Image.asset(imgeAssetPath, height: 100,width: 120, fit: BoxFit.cover,)),
+              child: Image.asset(imgeAssetPath, height: 200,width: 120, fit: BoxFit.cover,)),
         ],
       ),
     );
