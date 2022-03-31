@@ -13,9 +13,9 @@ class Info extends StatefulWidget {
 class _InfoState extends State<Info> {
 
   List <Instruction> instr = [
-    Instruction(Image: 1, Topic: "Create Productive Work Right Now 1", Description: "Collaborate create and keep a track of your project 1 ", isVisible: false,Height_box: 120.0),
-    Instruction(Image: 2, Topic: "Create Productive Work Right Now 2", Description: "Collaborate create and keep a track of your project 2 ", isVisible: true , Height_box: 78.0),
-    Instruction(Image: 3, Topic: "Create Productive Work Right Now 3", Description: "Collaborate create and keep a track of your project 3 ", isVisible: true , Height_box: 103.0),
+    Instruction(Image: 1, Topic: "Don't pay the price, keep your city nice. Don't litter.", Description: "We aim to provide awareness of how much we are wasting every day.We want to make a statement that we could reuse this waste as we recycle it.This is for us to teach them and make it as “persuasive” as possible for them to participate.", isVisible: false,Height_box: 120.0),
+    Instruction(Image: 2, Topic: "Health and hygiene – Better than wealth and digene.", Description: "To promote waste reduction, recycling and reuse and create public awareness on waste management and environmental concerns.To improve outdoor recreational activities of the community.", isVisible: true , Height_box: 78.0),
+    Instruction(Image: 3, Topic: "Let us go green to get our planet clean.", Description: "To help reduce the greenhouse gases and fight climate change; improving the quality of the natural environment. To set one’s mind on the well-being of future generation.", isVisible: true , Height_box: 103.0),
   ];
   // final Color clr = Colors.transparent;
   int index = 0;
@@ -51,7 +51,7 @@ class _InfoState extends State<Info> {
                     style:GoogleFonts.abel(
                         textStyle: TextStyle(
                             color:Colors.black,
-                            fontSize: 45.0,
+                            fontSize: 32.0,
                           fontWeight: FontWeight.bold
                         )
                     )
@@ -65,12 +65,12 @@ class _InfoState extends State<Info> {
                     style:GoogleFonts.abel(
                         textStyle: TextStyle(
                             color:Colors.black,
-                            fontSize: 20.0
+                            fontSize: 15.0
                         )
                     )
                   ),
                 ),
-                SizedBox(height: 50.0,),
+                SizedBox(height: 25.0,),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.end ,
                   children: <Widget>[
