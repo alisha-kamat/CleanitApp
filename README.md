@@ -32,8 +32,10 @@ Once done, the cleanup task for that area will be marked as completed.
 - User feedback/reviews page
 
 ## Tech Stack
-- Dart
-- Flutter
-- Firebase
+<a href="https://docs.flutter.dev/" title="Flutter"><img src="https://github.com/get-icon/geticon/blob/master/icons/flutter.svg" alt="Flutter" width="31px" height="31px"></a>
+<a href="https://dart.dev/guides" title="Dart"><img src="https://github.com/get-icon/geticon/blob/master/icons/dart.svg" alt="Dart" width="31px" height="31px"></a>
+<a href="https://firebase.google.com/docs?gclid=CjwKCAjwopWSBhB6EiwAjxmqDd65ZWXRxNjtU_WfBUDGnArAMu7IEwWMIBGkyiTkEB-BLZ5dlniM3xoCSvEQAvD_BwE&gclsrc=aw.ds" title="Firebase"><img src="https://github.com/get-icon/geticon/blob/master/icons/firebase.svg" alt="Firebase" width="31px" height="31px"></a>
+<a href="https://developers.google.com/maps/documentation" title="Google Maps"><img src="https://github.com/get-icon/geticon/blob/master/icons/google-maps.svg" alt="Google Maps" width="31px" height="31px"></a>
+
 
 ## Screenshots
