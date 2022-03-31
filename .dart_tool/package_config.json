@@ -122,6 +122,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "file_picker",
+      "rootUri": "file:///C:/Users/Ananya/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/file_picker-4.5.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "firebase_auth",
       "rootUri": "file:///C:/Users/Ananya/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/firebase_auth-3.3.10",
       "packageUri": "lib/",
@@ -172,6 +178,24 @@
     {
       "name": "firebase_database_web",
       "rootUri": "file:///C:/Users/Ananya/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/firebase_database_web-0.2.0+7",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_storage",
+      "rootUri": "file:///C:/Users/Ananya/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/firebase_storage-10.2.9",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_storage_platform_interface",
+      "rootUri": "file:///C:/Users/Ananya/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/firebase_storage_platform_interface-4.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_storage_web",
+      "rootUri": "file:///C:/Users/Ananya/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/firebase_storage_web-3.2.10",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     },
@@ -554,7 +578,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2022-03-31T02:27:52.911124Z",
+  "generated": "2022-03-31T12:25:02.071557Z",
   "generator": "pub",
   "generatorVersion": "2.16.0"
 }

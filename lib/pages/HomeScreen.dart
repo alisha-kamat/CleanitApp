@@ -9,6 +9,7 @@ import 'package:cleanitapp/models/event_type_model.dart';
 import 'package:cleanitapp/models/events_model.dart';
 import 'package:cleanitapp/data/add_event.dart';
 import 'package:cleanitapp/pages/Maps.dart';
+import 'package:cleanitapp/pages/UploadPage.dart';
 
 class HomeScreen extends StatefulWidget {
   // HomeScreen({required this.app});
@@ -46,210 +47,214 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     final ref = referenceDatabase.ref();
     return Scaffold(
-      body: Container(
-        child: Stack(
-          children: <Widget>[
-            Container(
-              decoration: BoxDecoration(
-               color: Color(0xff102733)
+      extendBodyBehindAppBar: true,
+
+      body: CustomPaint(
+        painter: BluePainter(),
+        child: Container(
+          child: Stack(
+            children: <Widget>[
+              Container(
+                decoration: BoxDecoration(
+
+                ),
               ),
-            ),
-            SingleChildScrollView(
-              child: Container(
-                padding: EdgeInsets.symmetric(vertical: 60,horizontal: 30),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Row(
-                      children: <Widget>[
-                        Image.asset("assets/logo.png",height: 28,),
-                        SizedBox(width: 8,),
-                        Row(
-                          children: <Widget>[
-                            Text("Cleanit", style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 22,
-                              fontWeight: FontWeight.w800
-                            ),),
-                            Text("App", style: TextStyle(
-                                color: Color(0xffFCCD00),
+              SingleChildScrollView(
+                child: Container(
+                  padding: EdgeInsets.symmetric(vertical: 60,horizontal: 30),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Row(
+                        children: <Widget>[
+                          SizedBox(height: 18,),
+                          Image.asset("assets/logo.png",height: 28,),
+                          SizedBox(width: 18,height: 20,),
+                          Row(
+                            children: <Widget>[
+                              Text("Cleanit", style: TextStyle(
+                                color: Colors.black,
                                 fontSize: 22,
                                 fontWeight: FontWeight.w800
-                            ),)
-                          ],
-                        ),
-                        Spacer(),
-                        Image.asset("assets/notify.png", height: 22,),
-                        SizedBox(width: 16,),
-                        Image.asset("assets/menu.png", height: 22,)
-                      ],
-                    ),
-                    SizedBox(height: 20,),
-                    Row(
-                      children: <Widget>[
-                        Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[
-                            Text("Hello, User!", style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.w700,
-                              fontSize: 21
-                            ),),
-                            SizedBox(height: 6,),
-                            Text("Let's explore where's the cleanup nearby",
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 15
-                            ),)
-                          ],
-                        ),
-                        Spacer(),
-                        Container(
-                          decoration: BoxDecoration(
-                            border: Border.all(
-                              width: 3,
-                              color: Color(0xffFAE072)
-                            ),
-                            borderRadius: BorderRadius.circular(30),
+                              ),),
+                              Text("App", style: TextStyle(
+                                  color: Color(0xffFCCD00),
+                                  fontSize: 22,
+                                  fontWeight: FontWeight.w800
+                              ),)
+                            ],
                           ),
-                          child: ClipRRect(
+                          Spacer(),
+                          Image.asset("assets/notify.png", height: 22,),
+                          SizedBox(width: 16,),
+                          Image.asset("assets/menu.png", height: 22,)
+                        ],
+                      ),
+                      SizedBox(height: 20,),
+                      Row(
+                        children: <Widget>[
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              Text("Hello, User!", style: TextStyle(
+                                color: Colors.black,
+                                fontWeight: FontWeight.w700,
+                                fontSize: 21
+                              ),),
+                              SizedBox(height: 6,),
+                              Text("Let's explore where's the cleanup nearby",
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 15
+                              ),)
+                            ],
+                          ),
+                          Spacer(),
+                          Container(
+                            decoration: BoxDecoration(
+                              border: Border.all(
+                                width: 3,
+                                color: Color(0xffFAE072)
+                              ),
                               borderRadius: BorderRadius.circular(30),
-                              child: IconButton(
-                                  icon: Image.asset("assets/profilepic.jpg", height: 40,),
-                                onPressed: (){
-                                  Navigator.push(context, MaterialPageRoute(builder: (context) => ProfilePage()));
-                                },
-                              )),
-                        )
-                      ],
-                    ),
-                    // SizedBox(height: 20,),
-
-                    /// Dates
-                    Container(
-                      height: 60,
-                      child: ListView.builder(
-                          itemCount: dates.length,
-                          shrinkWrap: true,
-                          scrollDirection: Axis.horizontal,
-                          itemBuilder: (context, index){
-                            return DateTile(
-                              weekDay: dates[index].weekDay,
-                              date: dates[index].date,
-                              isSelected: todayDateIs == dates[index].date,
-                            );
-                          }),
-                    ),
-
-                    /// Events
-                    SizedBox(height: 16,),
-                    Text("All Events", style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 20
-                    ),),
-                    SizedBox(height: 16,),
-                    Container(
-                      height: 100,
-                      child: ListView.builder(
-                        itemCount: eventsType.length,
-                          shrinkWrap: true,
-                          scrollDirection: Axis.horizontal,
-                          itemBuilder: (context, index){
-                          return ElevatedButton(
-                            child: EventTile(
-                              imgAssetPath: eventsType[index].imgAssetPath,
-                              eventType: eventsType[index].eventType,
-
                             ),
-                            onPressed: (){
-                              if(index==2) {
-                                  Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                          builder: (context) => Maps()));
-                                }
-                              else if(index==3) {
-                                  Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                          builder: (context) => Add_Event()));
-                                }
-                              },
-                          );
+                            child: ClipRRect(
+                                borderRadius: BorderRadius.circular(30),
+                                child: IconButton(
+                                    icon: Image.asset("assets/profilepic.jpg", height: 40,),
+                                  onPressed: (){
+                                    Navigator.push(context, MaterialPageRoute(builder: (context) => ProfilePage()));
+                                  },
+                                )),
+                          )
+                        ],
+                      ),
+                      // SizedBox(height: 20,),
 
-                          }),
-                    ),
-
-                    /// Cleanups
-                    SizedBox(height: 16,),
-                    Text("Upcoming Cleanups", style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 20
-                    ),),
-                     ListView.builder(
-                          itemCount: events.length,
+                      /// Dates
+                      Container(
+                        height: 60,
+                        child: ListView.builder(
+                            itemCount: dates.length,
                             shrinkWrap: true,
+                            scrollDirection: Axis.horizontal,
+                            itemBuilder: (context, index){
+                              return DateTile(
+                                weekDay: dates[index].weekDay,
+                                date: dates[index].date,
+                                isSelected: todayDateIs == dates[index].date,
+                              );
+                            }),
+                      ),
+
+                      /// Events
+                      SizedBox(height: 16,),
+                      Text("All Events", style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 20
+                      ),),
+                      SizedBox(height: 16,),
+                      Container(
+                        height: 100,
+                        child: ListView.builder(
+                          itemCount: eventsType.length,
+                            shrinkWrap: true,
+                            scrollDirection: Axis.horizontal,
                             itemBuilder: (context, index){
                             return ElevatedButton(
-                              child: Spacer(),
-                              onPressed: (){
-                               var keystr= ref
-                                .child('Events')
-                                    .push().key;
-                                  ref.child('Events').child(keystr.toString()).child('desc')
-                                    .set(events[index].desc)
-                                    .asStream();
-                                  ref.child('Events').child(keystr.toString()).child('imgeAssetPath')
-                                    .set(events[index].imgeAssetPath)
-                                    .asStream();
-                                  ref.child('Events').child(keystr.toString()).child('date')
-                                    .set(events[index].date)
-                                    .asStream();
-                                  ref.child('Events').child(keystr.toString()).child('address')
-                                    .set(events[index].address)
-                                    .asStream();
-                                  // ref.
+                              style: ButtonStyle(
+                                // foregroundColor: MaterialStateProperty.all(Color(0xFF5906B8FF).withOpacity(0.4)),
+                                backgroundColor: MaterialStateProperty.all(Color(0xFF5906B8FF).withOpacity(0.4)),
+                              ),
+                              child: EventTile(
+                                imgAssetPath: eventsType[index].imgAssetPath,
+                                eventType: eventsType[index].eventType,
 
-                              },
+                              ),
+                              onPressed: (){
+                                if(index==2) {
+                                    Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                            builder: (context) => Maps()));
+                                  }
+                                else if(index==3){
+                                  Navigator.push(context, MaterialPageRoute(builder: (context) => UploadPage()));
+                                }
+                                },
                             );
 
                             }),
-                    ListView.builder(
-                          itemCount: 1,
-                            shrinkWrap: true,
-                            itemBuilder: (context, index){
-                               return Flexible(
-                                   child: FirebaseAnimatedList(
-                                  shrinkWrap: true,
-                                  query: _EventsRef, itemBuilder: (BuildContext context,
-                                  DataSnapshot snapshot,
-                                  Animation animation,
-                                  int index)
-                              {
-                                return
-                                   UpcomingEventTile(
+                      ),
 
-                                        desc: snapshot.child('desc').value.toString(),
-                                        imgeAssetPath: snapshot.child('imgeAssetPath').value.toString(),
-                                        date: snapshot.child('date').value.toString(),
-                                        address: snapshot.child('address').value.toString()+index.toString(),
+                      /// Cleanups
+                      SizedBox(height: 16,),
+                      Text("Upcoming Cleanups", style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 20
+                      ),),
+                       // ListView.builder(
+                       //      itemCount: events.length,
+                       //        shrinkWrap: true,
+                       //        itemBuilder: (context, index){
+                       //        return ElevatedButton(
+                       //          child: Spacer(),
+                       //          onPressed: (){
+                       //           var keystr= ref
+                       //            .child('Events')
+                       //                .push().key;
+                       //              ref.child('Events').child(keystr.toString()).child('desc')
+                       //                .set(events[index].desc)
+                       //                .asStream();
+                       //              ref.child('Events').child(keystr.toString()).child('imgeAssetPath')
+                       //                .set(events[index].imgeAssetPath)
+                       //                .asStream();
+                       //              ref.child('Events').child(keystr.toString()).child('date')
+                       //                .set(events[index].date)
+                       //                .asStream();
+                       //              ref.child('Events').child(keystr.toString()).child('address')
+                       //                .set(events[index].address)
+                       //                .asStream();
+                       //              // ref.
+                       //
+                       //          },
+                       //        );
+                       //
+                       //        }),
+                      ListView.builder(
+                            itemCount: 1,
+                              shrinkWrap: true,
+                              itemBuilder: (context, index){
+                                 return Flexible(
+                                     child: FirebaseAnimatedList(
+                                    shrinkWrap: true,
+                                    query: _EventsRef, itemBuilder: (BuildContext context,
+                                    DataSnapshot snapshot,
+                                    Animation animation,
+                                    int index)
+                                {
+                                  return UpcomingEventTile(
+                                          desc: snapshot.child('desc').value.toString(),
+                                          imgeAssetPath: snapshot.child('imgeAssetPath').value.toString(),
+                                          date: snapshot.child('date').value.toString(),
+                                          address: snapshot.child('address').value.toString()+index.toString(),
+                                        );
 
-                                      );
 
 
+                                })
+                                );
+                              }
+                              ),
 
-                              })
-                              );
-                            }
-                            ),
 
-
-                  ],
+                    ],
+                  ),
                 ),
               ),
-            ),
 
-          ],
+            ],
+          ),
         ),
       ),
     );
@@ -276,12 +281,12 @@ class DateTile extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Text(date, style: TextStyle(
-            color: isSelected ? Colors.black : Colors.white,
+            color: isSelected ? Colors.black : Colors.black,
             fontWeight: FontWeight.w600
           ),),
           SizedBox(height: 10,),
           Text(weekDay, style: TextStyle(
-              color: isSelected ? Colors.black : Colors.white,
+              color: isSelected ? Colors.black : Colors.black,
               fontWeight: FontWeight.w600
           ),)
         ],
@@ -303,7 +308,7 @@ class EventTile extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: 30),
       margin: EdgeInsets.only(right: 16),
       decoration: BoxDecoration(
-        color: Color(0xff29404E),
+        color: Color(0xFFBBD7F1FF),
         borderRadius: BorderRadius.circular(12)
       ),
       child: Column(
@@ -312,7 +317,7 @@ class EventTile extends StatelessWidget {
           Image.asset(imgAssetPath, height: 27,),
           SizedBox(height: 12,),
           Text(eventType, style: TextStyle(
-            color: Colors.white
+            color: Colors.black
           ),)
         ],
       ),
@@ -334,7 +339,7 @@ class UpcomingEventTile extends StatelessWidget {
       height: 100,
       margin: EdgeInsets.only(bottom: 16),
       decoration: BoxDecoration(
-        color: Color(0xff29404E),
+        color: Color(0xFF5F0266FF),
         borderRadius: BorderRadius.circular(8)
       ),
       child: Row(
@@ -348,7 +353,7 @@ class UpcomingEventTile extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text(desc, style: TextStyle(
-                      color: Colors.white,
+                      color: Colors.black,
                     fontSize: 18
                   ),),
                   SizedBox(height: 8,),
@@ -357,7 +362,7 @@ class UpcomingEventTile extends StatelessWidget {
                       Image.asset("assets/calender.png", height: 12,),
                       SizedBox(width: 8,),
                       Text(date, style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontSize: 10
                       ),)
                     ],
@@ -368,7 +373,7 @@ class UpcomingEventTile extends StatelessWidget {
                       Image.asset("assets/location.png", height: 12,),
                       SizedBox(width: 8,),
                       Text(address, style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontSize: 10
                       ),)
                     ],
@@ -386,5 +391,51 @@ class UpcomingEventTile extends StatelessWidget {
   }
 }
 
+
+class BluePainter2 extends CustomPainter{
+  void paint(Canvas canvas ,Size size){
+    final height = size.height;
+    final width = size.width;
+    Paint paint1 = Paint();
+    Paint paint2 = Paint();
+    Paint paint3 = Paint();
+    Paint paint4= Paint();
+    Path mainBackground = Path();
+    mainBackground.addRect(Rect.fromLTRB(0, 0, width, height));
+    paint1.color = Color(0xFFBBD7F1FF);
+    canvas.drawPath(mainBackground, paint1);
+    // topLeft Circle
+    Path ovalPath = Path();
+    ovalPath.moveTo(width*0.5, 0);
+    ovalPath.quadraticBezierTo(width*0.7, height *0.15, width, height* 0.2);
+    // ovalPath.quadraticBezierTo(width*0.6, height *0.8, width*0.1, height);
+    ovalPath.lineTo(width,0);
+    ovalPath.close();
+    paint2.color = Color(0xFF5F0266FF).withOpacity(0.3); //03296DFF
+    canvas.drawPath(ovalPath, paint2);
+
+    //BottomRight Circle 1
+    Path ovalPath2 = Path();
+    ovalPath2.moveTo(0, 0.70*height);
+    ovalPath2.quadraticBezierTo(width*0.35, height *0.8, width*0.20, height);
+    ovalPath2.lineTo(0,height);
+    ovalPath2.close();
+    paint3.color = Color(0xFF5F0266FF).withOpacity(0.3);//
+    canvas.drawPath(ovalPath2, paint3);
+
+    //BottomRight Circle 1
+    Path ovalPath3= Path();
+    ovalPath3.moveTo(0, 0.9*height);
+    ovalPath3.quadraticBezierTo(width*0.40, height *0.8, width*0.65, height);
+    ovalPath3.lineTo(0,height);
+    ovalPath3.close();
+    paint3.color = Color(0xFF5906B8FF).withOpacity(0.4); //
+    canvas.drawPath(ovalPath3, paint3);
+  }
+  @override
+  bool shouldRepaint(CustomPainter oldDelegate){
+    return oldDelegate != this;
+  }
+}
 
 

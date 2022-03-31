@@ -1,12 +1,14 @@
 -- Merging decision tree log ---
 application
 INJECTED from C:\Users\Ananya\AndroidStudioProjects\CleanitApp\android\app\src\main\AndroidManifest.xml:6:4-39:19
-MERGED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_database] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_database] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:cloud_firestore] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:cloud_firestore] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:geolocator_android] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-15:19
@@ -21,6 +23,8 @@ MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\c
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\4aad57c697aa3ff3c034346c3b5c00f7\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\4aad57c697aa3ff3c034346c3b5c00f7\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\c6d4bae219cfccd4d1a47ac8a6ab190d\jetified-firebase-storage-20.0.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\c6d4bae219cfccd4d1a47ac8a6ab190d\jetified-firebase-storage-20.0.0\AndroidManifest.xml:29:5-37:19
 MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\b64245ae652524ca831161f173ed9d50\jetified-firebase-database-20.0.3\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\b64245ae652524ca831161f173ed9d50\jetified-firebase-database-20.0.3\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\25cb0c54235292da52e5500e9e32ad5e\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
@@ -57,13 +61,15 @@ INJECTED from C:\Users\Ananya\AndroidStudioProjects\CleanitApp\android\app\src\m
 INJECTED from C:\Users\Ananya\AndroidStudioProjects\CleanitApp\android\app\src\main\AndroidManifest.xml:1:1-40:12
 INJECTED from C:\Users\Ananya\AndroidStudioProjects\CleanitApp\android\app\src\main\AndroidManifest.xml:1:1-40:12
 MERGED from C:\Users\Ananya\AndroidStudioProjects\CleanitApp\android\app\src\main\AndroidManifest.xml:1:1-40:12
-MERGED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_database] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:cloud_firestore] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_storage] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:geolocator_android] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [:google_maps_flutter] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\google_maps_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-19:12
+MERGED from [:file_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider_android] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:location] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-18:12
@@ -72,6 +78,7 @@ MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Ananya\.gradle\c
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\a0cfbd40eb503a2744acafc0a3e3302e\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\4aad57c697aa3ff3c034346c3b5c00f7\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\c6d4bae219cfccd4d1a47ac8a6ab190d\jetified-firebase-storage-20.0.0\AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\b64245ae652524ca831161f173ed9d50\jetified-firebase-database-20.0.3\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\25cb0c54235292da52e5500e9e32ad5e\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\0d21402197f2db42ecd82e515098191f\jetified-firebase-appcheck-interop-16.0.0-beta04\AndroidManifest.xml:15:1-26:12
@@ -108,8 +115,8 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Ananya\.
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\2c3a9483c7aecfd6e0cb40ecbd1d40fc\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\b8ec71914506f006f104d6765b1f9f48\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\e08fb6c94cc6104b10ef81a611afbc7c\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\1e3f583850ed60a52e8542c4e67e9318\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\10c8a59b7abcd6c57cb76a2b2b4fdf37\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\1e3f583850ed60a52e8542c4e67e9318\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\8b7c73708ec5e9abfc00d24b3ca88429\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ce78f41206b6080743962d18b10a24a0\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\fbb8b410f4b8bb94af4053a2b212b177\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -143,6 +150,8 @@ MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\c
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\4aad57c697aa3ff3c034346c3b5c00f7\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\4aad57c697aa3ff3c034346c3b5c00f7\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\c6d4bae219cfccd4d1a47ac8a6ab190d\jetified-firebase-storage-20.0.0\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\c6d4bae219cfccd4d1a47ac8a6ab190d\jetified-firebase-storage-20.0.0\AndroidManifest.xml:27:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\b64245ae652524ca831161f173ed9d50\jetified-firebase-database-20.0.3\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\b64245ae652524ca831161f173ed9d50\jetified-firebase-database-20.0.3\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\bffd96b79879dc6826fbcfb4d35e4308\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
@@ -165,12 +174,14 @@ uses-sdk
 INJECTED from C:\Users\Ananya\AndroidStudioProjects\CleanitApp\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Ananya\AndroidStudioProjects\CleanitApp\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Ananya\AndroidStudioProjects\CleanitApp\android\app\src\main\AndroidManifest.xml
-MERGED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_database] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_database] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:geolocator_android] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
@@ -179,6 +190,8 @@ MERGED from [:google_maps_flutter] C:\Users\Ananya\AndroidStudioProjects\Cleanit
 MERGED from [:google_maps_flutter] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\google_maps_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider_android] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
@@ -195,6 +208,8 @@ MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\c
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\4aad57c697aa3ff3c034346c3b5c00f7\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\4aad57c697aa3ff3c034346c3b5c00f7\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\c6d4bae219cfccd4d1a47ac8a6ab190d\jetified-firebase-storage-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\c6d4bae219cfccd4d1a47ac8a6ab190d\jetified-firebase-storage-20.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\b64245ae652524ca831161f173ed9d50\jetified-firebase-database-20.0.3\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\b64245ae652524ca831161f173ed9d50\jetified-firebase-database-20.0.3\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\25cb0c54235292da52e5500e9e32ad5e\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
@@ -267,10 +282,10 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\b8ec71914506f006f104d6765b1f9f48\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\e08fb6c94cc6104b10ef81a611afbc7c\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\e08fb6c94cc6104b10ef81a611afbc7c\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\1e3f583850ed60a52e8542c4e67e9318\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\1e3f583850ed60a52e8542c4e67e9318\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\10c8a59b7abcd6c57cb76a2b2b4fdf37\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\10c8a59b7abcd6c57cb76a2b2b4fdf37\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\1e3f583850ed60a52e8542c4e67e9318\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\1e3f583850ed60a52e8542c4e67e9318\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\8b7c73708ec5e9abfc00d24b3ca88429\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\8b7c73708ec5e9abfc00d24b3ca88429\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ce78f41206b6080743962d18b10a24a0\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
@@ -296,17 +311,21 @@ INJECTED from C:\Users\Ananya\AndroidStudioProjects\CleanitApp\android\app\src\d
 		INJECTED from C:\Users\Ananya\AndroidStudioProjects\CleanitApp\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Ananya\AndroidStudioProjects\CleanitApp\android\app\src\debug\AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_database] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_database] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+ADDED from [:firebase_database] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:cloud_firestore] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:cloud_firestore] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\4aad57c697aa3ff3c034346c3b5c00f7\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\4aad57c697aa3ff3c034346c3b5c00f7\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\c6d4bae219cfccd4d1a47ac8a6ab190d\jetified-firebase-storage-20.0.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\c6d4bae219cfccd4d1a47ac8a6ab190d\jetified-firebase-storage-20.0.0\AndroidManifest.xml:30:9-36:19
 MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\b64245ae652524ca831161f173ed9d50\jetified-firebase-database-20.0.3\AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\b64245ae652524ca831161f173ed9d50\jetified-firebase-database-20.0.3\AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\83e25a8df802dd19e5404f0bb88ffd79\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
@@ -318,13 +337,7 @@ MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Ananya\.gradle
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\83e25a8df802dd19e5404f0bb88ffd79\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
-meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
-ADDED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-	android:value
-		ADDED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
-	android:name
-		ADDED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_database] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar
 ADDED from [:firebase_database] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
@@ -337,6 +350,18 @@ ADDED from [:cloud_firestore] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\b
 		ADDED from [:cloud_firestore] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:cloud_firestore] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_storage] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_storage] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
 ADDED from [:firebase_core] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
@@ -373,6 +398,22 @@ ADDED from [:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\buil
 		ADDED from [:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
 	android:name
 		ADDED from [:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:file_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:file_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+queries
+ADDED from [:file_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-15:15
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from [:file_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-14:18
+action#android.intent.action.GET_CONTENT
+ADDED from [:file_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-72
+	android:name
+		ADDED from [:file_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:21-69
+data
+ADDED from [:file_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-44
+	android:mimeType
+		ADDED from [:file_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-41
 service#com.lyokone.location.FlutterLocationService
 ADDED from [:location] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-15:56
 	android:enabled
@@ -399,6 +440,8 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\4aad57c697aa3ff3c034346c3b5c00f7\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:13:5-79
 MERGED from [com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\4aad57c697aa3ff3c034346c3b5c00f7\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\c6d4bae219cfccd4d1a47ac8a6ab190d\jetified-firebase-storage-20.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\c6d4bae219cfccd4d1a47ac8a6ab190d\jetified-firebase-storage-20.0.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\b64245ae652524ca831161f173ed9d50\jetified-firebase-database-20.0.3\AndroidManifest.xml:25:5-79
 MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\b64245ae652524ca831161f173ed9d50\jetified-firebase-database-20.0.3\AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\bffd96b79879dc6826fbcfb4d35e4308\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
@@ -433,14 +476,6 @@ category#android.intent.category.BROWSABLE
 ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
-data
-ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
-	android:path
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
-	android:host
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
-	android:scheme
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
 activity#com.google.firebase.auth.internal.RecaptchaActivity
 ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
 	android:excludeFromRecents
@@ -481,6 +516,12 @@ ADDED from [com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.grad
 		ADDED from [com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\4aad57c697aa3ff3c034346c3b5c00f7\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:22:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\4aad57c697aa3ff3c034346c3b5c00f7\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\c6d4bae219cfccd4d1a47ac8a6ab190d\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\c6d4bae219cfccd4d1a47ac8a6ab190d\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\c6d4bae219cfccd4d1a47ac8a6ab190d\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
 meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
 ADDED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\b64245ae652524ca831161f173ed9d50\jetified-firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
 	android:value

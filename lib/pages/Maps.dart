@@ -12,24 +12,17 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:cleanitapp/screens/objClass/MapArguments.dart';
 import 'package:cleanitapp/pages/UploadPage.dart';
 import 'package:cleanitapp/data/add_event.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_database/firebase_database.dart';
+import 'package:firebase_database/ui/firebase_animated_list.dart';
 
-class Maps extends StatelessWidget {
-
+class Maps extends StatefulWidget {
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Google Maps Demo',
-      home: MapSample(),
-    );
-  }
+  State<Maps> createState() => MapSampleState();
 }
 
-class MapSample extends StatefulWidget {
-  @override
-  State<MapSample> createState() => MapSampleState();
-}
-
-class MapSampleState extends State<MapSample> {
+class MapSampleState extends State<Maps> {
+  final referenceDatabase = FirebaseDatabase.instance;
   Completer<GoogleMapController> _controllerGoogleMap = Completer();
   CollectionReference markInformation = FirebaseFirestore.instance.collection('markerInfo');
   late GoogleMapController newGoogleMapController;
@@ -58,9 +51,15 @@ class MapSampleState extends State<MapSample> {
   target: LatLng(37.42796133580664, -122.085749655962),
   zoom: 84.4746,
   );
-
+  late DatabaseReference _EventsRef;
+  @override
+  void initState() {
+    final FirebaseDatabase database = FirebaseDatabase.instance;
+    _EventsRef = database.ref().child('Markers');
+  }
   @override
   Widget build(BuildContext context) {
+    final ref = referenceDatabase.ref();
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
@@ -127,8 +126,8 @@ class MapSampleState extends State<MapSample> {
                         //       'latitude': lat,
                         //       'longitude': lng,
                         //     }).then((value) => "Trash Info Updated");
-                        // print(lat);
-                        // print(lng);
+                        print(lat);
+                        print(lng);
                         // Navigator.push(
                         //   context,
                         //   '/ProfilePage'
@@ -141,7 +140,26 @@ class MapSampleState extends State<MapSample> {
                         // Route route = new MaterialPageRoute(builder: (context) => UploadPage());
                         // Navigator.push(context, MaterialPageRoute(builder: (context) => Add_Event()));
                         // addMarker(lat,lng,newGoogleMapController);
+                        var keystr= ref
+                            .child('Markers')
+                            .push().key;
+                        ref.child('Markers').child(keystr.toString()).child('id')
+                            .set(keystr.toString())
+                            .asStream();
+                        ref.child('Markers').child(keystr.toString()).child('lat')
+                            .set(lat)
+                            .asStream();
+                        ref.child('Markers').child(keystr.toString()).child('lng')
+                            .set(lng)
+                            .asStream();
+                        _markers.add(
+                            Marker(
 
+                                markerId: MarkerId(keystr.toString()),
+                                position: LatLng(lat,lng)
+                            )
+
+                        );
                       },
 
                     ),
@@ -155,28 +173,55 @@ class MapSampleState extends State<MapSample> {
     );
   }
 
-  void addMarker(double lat, double lng) {
-    print(lat);
-    print(lng);
-    _markers.add(
-      Marker(
 
-        markerId: MarkerId('id-1'),
-        position: LatLng(lat,lng)
-      )
-
-    );
-    // OnMapCreation(controller);
-  }
 
   void OnMapCreation(GoogleMapController  controller) {
+    locatePosition();
+    findMapData();
     // ;
     _controllerGoogleMap.complete(controller);
     newGoogleMapController=controller;
     setState(() {
       bottompaddingOfPadding = 265.0;
     });
-    locatePosition();
-    addMarker(lat, lng);
+
+
+
+  }
+
+  void findMapData() {
+
+     FirebaseAnimatedList(
+        shrinkWrap: true,
+        query: _EventsRef, itemBuilder: (BuildContext context,
+        DataSnapshot snapshot,
+        Animation animation,
+        int index)
+    {
+      print("adding markers");
+      print(snapshot.child('lat').value.toString());
+      print(snapshot.child('lng').value.toString());
+      print(snapshot.child('id').value.toString());
+      _markers.add(
+          Marker(
+              markerId: MarkerId(snapshot.child('id').value.toString()),
+              position: LatLng(double.parse(snapshot.child('lat').value.toString()),double.parse(snapshot.child('lng').value.toString()))
+
+      ));
+
+    return   GoogleMap(
+      padding: EdgeInsets.only(bottom: bottompaddingOfPadding,top: bottompaddingOfPadding),
+      mapType: MapType.hybrid,
+      myLocationButtonEnabled: true,
+      initialCameraPosition: _kGooglePlex,
+      myLocationEnabled: true,
+      zoomControlsEnabled: true,
+      zoomGesturesEnabled: true,
+      onMapCreated: OnMapCreation,
+      markers: _markers,
+    );
+
+    }
+    );
   }
 }

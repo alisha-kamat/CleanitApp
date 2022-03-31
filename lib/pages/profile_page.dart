@@ -1,3 +1,4 @@
+import 'package:cleanitapp/pages/Info.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../model/user.dart';
@@ -18,27 +19,39 @@ class _ProfilePageState extends State<ProfilePage> {
   Widget build(BuildContext context) {
     final user = UserPreferences.myUser;
 
-    return Scaffold(
-      appBar: buildAppBar(context),
-      body: ListView(
-        physics: BouncingScrollPhysics(),
-        children: [
-          ProfileWidget(
-            imagePath: user.imagePath,
-            onClicked: () async {},
-          ),
-          const SizedBox(height: 24),
-          buildName(user),
-          const SizedBox(height: 24),
-          Center(child: buildUpgradeButton()),
-          const SizedBox(height: 24),
-          NumbersWidget(),
-          const SizedBox(height: 48),
-          buildAbout(user),
+    return  Scaffold(
+        extendBodyBehindAppBar: true,
+        appBar: AppBar(
 
-        ],
+        title: Text(
+        'CleanitApp',
+        style: TextStyle(
+            color: Colors.white,
+        ),
+        ),   backgroundColor: Colors.transparent,
+        ),
+        body: CustomPaint(
+          painter: BluePainter(),
+          child:ListView(
+          physics: BouncingScrollPhysics(),
+          children: [
+            ProfileWidget(
+              imagePath: user.imagePath,
+              onClicked: () async {},
+            ),
+            const SizedBox(height: 24),
+            buildName(user),
+            const SizedBox(height: 24),
+            Center(child: buildUpgradeButton()),
+            const SizedBox(height: 24),
+            NumbersWidget(),
+            const SizedBox(height: 48),
+            buildAbout(user),
+
+          ],
+        ),
+
       ),
-
     );
   }
 
