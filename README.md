@@ -39,3 +39,9 @@ Once done, the cleanup task for that area will be marked as completed.
 
 
 ## Screenshots
+
+## Team Members
+- [Alisha Kamat](https://github.com/alisha-kamat)
+- [Ananya Bangera](https://github.com/ananya-bangera)
+- [Aayush Mehta](https://github.com/AayushM8)
+- [Siddhant Sontakke](https://github.com/Siddhant109)
