@@ -1,5 +1,5 @@
 <h1 align="center">
-  CleanitApp
+   CleanitApp
 </h1>
 <div align="center">
   <strong>CleanitApp</strong> - Helps in cleanup of local areas on a volunteering basis<br>
