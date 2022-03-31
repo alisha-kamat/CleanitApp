@@ -1,6 +1,7 @@
 import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
+import 'package:cleanitapp/pages/HomeScreen.dart';
 import 'Maps.dart';
 
 class SignUp extends StatefulWidget {
@@ -68,7 +69,7 @@ class _SignUpState extends State<SignUp> {
               print('Email: ${emailController.text}');
               // print('Password: ${password}');
               print('Name: ${name}');
-              Route route = MaterialPageRoute(builder: (context) => Maps());
+              Route route = MaterialPageRoute(builder: (context) => HomeScreen());
               Navigator.pushReplacement(context, route);
             },
             child: const Text('Submit'),

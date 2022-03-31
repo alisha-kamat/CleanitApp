@@ -34,6 +34,7 @@ class MapSampleState extends State<MapSample> {
   CollectionReference markInformation = FirebaseFirestore.instance.collection('markerInfo');
   late GoogleMapController newGoogleMapController;
   late double lat,lng;
+  Set<Marker> _markers = {};
   GlobalKey<ScaffoldState> scaffoldKey = new GlobalKey<ScaffoldState>();
   double bottompaddingOfPadding = 0;
   late Position currentPos;
@@ -83,14 +84,8 @@ class MapSampleState extends State<MapSample> {
               myLocationEnabled: true,
               zoomControlsEnabled: true,
               zoomGesturesEnabled: true,
-              onMapCreated: (GoogleMapController controller) {
-                _controllerGoogleMap.complete(controller);
-                newGoogleMapController=controller;
-                setState(() {
-                  bottompaddingOfPadding = 265.0;
-                });
-                locatePosition();
-              },
+              onMapCreated: OnMapCreation,
+             markers: _markers,
             ),
           Positioned(
             top: 45.0,
@@ -127,13 +122,13 @@ class MapSampleState extends State<MapSample> {
                         // locatePosition();
                         // string uniquekey="";
                         // String info = markInformation.add({}).toString();
-                        await markInformation.add(
-                            {
-                              'latitude': lat,
-                              'longitude': lng,
-                            }).then((value) => "Trash Info Updated");
-                        print(lat);
-                        print(lng);
+                        // await markInformation.add(
+                        //     {
+                        //       'latitude': lat,
+                        //       'longitude': lng,
+                        //     }).then((value) => "Trash Info Updated");
+                        // print(lat);
+                        // print(lng);
                         // Navigator.push(
                         //   context,
                         //   '/ProfilePage'
@@ -144,7 +139,9 @@ class MapSampleState extends State<MapSample> {
                         //   'longitude': lng
                         // });
                         // Route route = new MaterialPageRoute(builder: (context) => UploadPage());
-                        Navigator.push(context, MaterialPageRoute(builder: (context) => Add_Event()));
+                        // Navigator.push(context, MaterialPageRoute(builder: (context) => Add_Event()));
+                        // addMarker(lat,lng,newGoogleMapController);
+
                       },
 
                     ),
@@ -156,5 +153,30 @@ class MapSampleState extends State<MapSample> {
         ],
       ),
     );
+  }
+
+  void addMarker(double lat, double lng) {
+    print(lat);
+    print(lng);
+    _markers.add(
+      Marker(
+
+        markerId: MarkerId('id-1'),
+        position: LatLng(lat,lng)
+      )
+
+    );
+    // OnMapCreation(controller);
+  }
+
+  void OnMapCreation(GoogleMapController  controller) {
+    // ;
+    _controllerGoogleMap.complete(controller);
+    newGoogleMapController=controller;
+    setState(() {
+      bottompaddingOfPadding = 265.0;
+    });
+    locatePosition();
+    addMarker(lat, lng);
   }
 }

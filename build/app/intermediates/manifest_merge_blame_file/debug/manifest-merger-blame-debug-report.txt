@@ -92,208 +92,220 @@
 72                android:value="com.google.firebase.components.ComponentRegistrar" />
 72-->[:firebase_auth] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 73            <meta-data
-73-->[:cloud_firestore] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-74-->[:cloud_firestore] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+73-->[:firebase_database] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+74-->[:firebase_database] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-127
 75                android:value="com.google.firebase.components.ComponentRegistrar" />
-75-->[:cloud_firestore] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+75-->[:firebase_database] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 76            <meta-data
-76-->[:firebase_core] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-77-->[:firebase_core] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+76-->[:cloud_firestore] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+77-->[:cloud_firestore] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
 78                android:value="com.google.firebase.components.ComponentRegistrar" />
-78-->[:firebase_core] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+78-->[:cloud_firestore] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 79            <meta-data
-79-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
-80                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-80-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+79-->[:firebase_core] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+80                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+80-->[:firebase_core] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
 81                android:value="com.google.firebase.components.ComponentRegistrar" />
-81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+81-->[:firebase_core] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 82            <meta-data
-82-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\4aad57c697aa3ff3c034346c3b5c00f7\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:20:13-22:85
-83                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-83-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\4aad57c697aa3ff3c034346c3b5c00f7\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:21:17-111
+82-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+83                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+83-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
 84                android:value="com.google.firebase.components.ComponentRegistrar" />
-84-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\4aad57c697aa3ff3c034346c3b5c00f7\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:22:17-82
-85        </service>
-86
-87        <provider
-87-->[:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
-88            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-88-->[:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
-89            android:authorities="com.example.cleanitapp.flutter.image_provider"
-89-->[:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
-90            android:exported="false"
-90-->[:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
-91            android:grantUriPermissions="true" >
-91-->[:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
-92            <meta-data
-92-->[:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
-93                android:name="android.support.FILE_PROVIDER_PATHS"
-93-->[:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
-94                android:resource="@xml/flutter_image_picker_file_paths" />
-94-->[:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
-95        </provider>
-96
-97        <service
-97-->[:geolocator_android] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-14:56
-98            android:name="com.baseflow.geolocator.GeolocatorLocationService"
-98-->[:geolocator_android] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-77
-99            android:enabled="true"
-99-->[:geolocator_android] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-35
-100            android:exported="false"
-100-->[:geolocator_android] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
-101            android:foregroundServiceType="location" />
-101-->[:geolocator_android] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-53
-102        <service
-102-->[:location] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-15:56
-103            android:name="com.lyokone.location.FlutterLocationService"
-103-->[:location] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-71
-104            android:enabled="true"
-104-->[:location] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-35
-105            android:exported="false"
-105-->[:location] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
-106            android:foregroundServiceType="location" />
-106-->[:location] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-53
+84-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\4aad57c697aa3ff3c034346c3b5c00f7\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:20:13-22:85
+86                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+86-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\4aad57c697aa3ff3c034346c3b5c00f7\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:21:17-111
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\4aad57c697aa3ff3c034346c3b5c00f7\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:22:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-database:20.0.3] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\b64245ae652524ca831161f173ed9d50\jetified-firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
+89                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+89-->[com.google.firebase:firebase-database:20.0.3] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\b64245ae652524ca831161f173ed9d50\jetified-firebase-database-20.0.3\AndroidManifest.xml:33:17-109
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-database:20.0.3] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\b64245ae652524ca831161f173ed9d50\jetified-firebase-database-20.0.3\AndroidManifest.xml:34:17-82
+91        </service>
+92        <service
+92-->[:geolocator_android] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-14:56
+93            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+93-->[:geolocator_android] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-77
+94            android:enabled="true"
+94-->[:geolocator_android] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-35
+95            android:exported="false"
+95-->[:geolocator_android] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+96            android:foregroundServiceType="location" />
+96-->[:geolocator_android] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-53
+97
+98        <provider
+98-->[:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+99            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+99-->[:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+100            android:authorities="com.example.cleanitapp.flutter.image_provider"
+100-->[:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+101            android:exported="false"
+101-->[:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+102            android:grantUriPermissions="true" >
+102-->[:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+103            <meta-data
+103-->[:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+104                android:name="android.support.FILE_PROVIDER_PATHS"
+104-->[:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+105                android:resource="@xml/flutter_image_picker_file_paths" />
+105-->[:image_picker] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+106        </provider>
 107
-108        <uses-library
-108-->[androidx.window:window:1.0.0-beta04] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\a0cfbd40eb503a2744acafc0a3e3302e\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
-109            android:name="androidx.window.extensions"
-109-->[androidx.window:window:1.0.0-beta04] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\a0cfbd40eb503a2744acafc0a3e3302e\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
-110            android:required="false" />
-110-->[androidx.window:window:1.0.0-beta04] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\a0cfbd40eb503a2744acafc0a3e3302e\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
-111        <uses-library
-111-->[androidx.window:window:1.0.0-beta04] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\a0cfbd40eb503a2744acafc0a3e3302e\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
-112            android:name="androidx.window.sidecar"
-112-->[androidx.window:window:1.0.0-beta04] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\a0cfbd40eb503a2744acafc0a3e3302e\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
-113            android:required="false" />
-113-->[androidx.window:window:1.0.0-beta04] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\a0cfbd40eb503a2744acafc0a3e3302e\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
-114
-115        <activity
-115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
-116            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-116-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
-117            android:excludeFromRecents="true"
-117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
-118            android:exported="true"
-118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
-119            android:launchMode="singleTask"
-119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
-120            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
-121            <intent-filter>
-121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
-122                <action android:name="android.intent.action.VIEW" />
-122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
-123
-124                <category android:name="android.intent.category.DEFAULT" />
-124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-125                <category android:name="android.intent.category.BROWSABLE" />
-125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
-126
-127                <data
-127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
-128                    android:host="firebase.auth"
-128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
-129                    android:path="/"
-129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
-130                    android:scheme="genericidp" />
-130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
-131            </intent-filter>
-132        </activity>
-133        <activity
-133-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
-134            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-134-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
-135            android:excludeFromRecents="true"
-135-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
-136            android:exported="true"
-136-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
-137            android:launchMode="singleTask"
-137-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
-138            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-138-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
-139            <intent-filter>
-139-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
-140                <action android:name="android.intent.action.VIEW" />
-140-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-140-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
-141
-142                <category android:name="android.intent.category.DEFAULT" />
-142-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-142-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-143                <category android:name="android.intent.category.BROWSABLE" />
-143-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-143-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
-144
-145                <data
-145-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
-146                    android:host="firebase.auth"
-146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
-147                    android:path="/"
-147-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
-148                    android:scheme="recaptcha" />
-148-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
-149            </intent-filter>
-150        </activity>
-151
-152        <service
-152-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
-153            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-153-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
-154            android:enabled="true"
-154-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
-155            android:exported="false" >
-155-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
-156            <intent-filter>
-156-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
-157                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-157-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
-157-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
-158
-159                <category android:name="android.intent.category.DEFAULT" />
-159-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-159-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-160            </intent-filter>
-161        </service>
-162
-163        <provider
-163-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\83e25a8df802dd19e5404f0bb88ffd79\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
-164            android:name="com.google.firebase.provider.FirebaseInitProvider"
-164-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\83e25a8df802dd19e5404f0bb88ffd79\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-165            android:authorities="com.example.cleanitapp.firebaseinitprovider"
-165-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\83e25a8df802dd19e5404f0bb88ffd79\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
-166            android:directBootAware="true"
-166-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\83e25a8df802dd19e5404f0bb88ffd79\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
-167            android:exported="false"
-167-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\83e25a8df802dd19e5404f0bb88ffd79\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
-168            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
-168-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\83e25a8df802dd19e5404f0bb88ffd79\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
-169        <uses-library
-169-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\bffd96b79879dc6826fbcfb4d35e4308\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-170            android:name="org.apache.http.legacy"
-170-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\bffd96b79879dc6826fbcfb4d35e4308\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
-171            android:required="false" />
-171-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\bffd96b79879dc6826fbcfb4d35e4308\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
-172
-173        <activity
-173-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\51a2db97f7713d6718009c1f56a77672\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-174            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-174-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\51a2db97f7713d6718009c1f56a77672\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-175            android:exported="false"
-175-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\51a2db97f7713d6718009c1f56a77672\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-176            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-176-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\51a2db97f7713d6718009c1f56a77672\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-177
-178        <meta-data
-178-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\bc1a929e91d84da54d4cb81d39cbeff5\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
-179            android:name="com.google.android.gms.version"
-179-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\bc1a929e91d84da54d4cb81d39cbeff5\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
-180            android:value="@integer/google_play_services_version" />
-180-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\bc1a929e91d84da54d4cb81d39cbeff5\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
-181    </application>
-182
-183</manifest>
+108        <service
+108-->[:location] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-15:56
+109            android:name="com.lyokone.location.FlutterLocationService"
+109-->[:location] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-71
+110            android:enabled="true"
+110-->[:location] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-35
+111            android:exported="false"
+111-->[:location] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+112            android:foregroundServiceType="location" />
+112-->[:location] C:\Users\Ananya\AndroidStudioProjects\CleanitApp\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-53
+113
+114        <uses-library
+114-->[androidx.window:window:1.0.0-beta04] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\a0cfbd40eb503a2744acafc0a3e3302e\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+115            android:name="androidx.window.extensions"
+115-->[androidx.window:window:1.0.0-beta04] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\a0cfbd40eb503a2744acafc0a3e3302e\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+116            android:required="false" />
+116-->[androidx.window:window:1.0.0-beta04] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\a0cfbd40eb503a2744acafc0a3e3302e\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+117        <uses-library
+117-->[androidx.window:window:1.0.0-beta04] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\a0cfbd40eb503a2744acafc0a3e3302e\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+118            android:name="androidx.window.sidecar"
+118-->[androidx.window:window:1.0.0-beta04] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\a0cfbd40eb503a2744acafc0a3e3302e\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+119            android:required="false" />
+119-->[androidx.window:window:1.0.0-beta04] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\a0cfbd40eb503a2744acafc0a3e3302e\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+120
+121        <activity
+121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+122            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+123            android:excludeFromRecents="true"
+123-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+124            android:exported="true"
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+125            android:launchMode="singleTask"
+125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+126            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+127            <intent-filter>
+127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+128                <action android:name="android.intent.action.VIEW" />
+128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+129
+130                <category android:name="android.intent.category.DEFAULT" />
+130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+131                <category android:name="android.intent.category.BROWSABLE" />
+131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+132
+133                <data
+133-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+134                    android:host="firebase.auth"
+134-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+135                    android:path="/"
+135-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+136                    android:scheme="genericidp" />
+136-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+137            </intent-filter>
+138        </activity>
+139        <activity
+139-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+140            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+140-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+141            android:excludeFromRecents="true"
+141-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+142            android:exported="true"
+142-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+143            android:launchMode="singleTask"
+143-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+144            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+144-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+145            <intent-filter>
+145-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+146                <action android:name="android.intent.action.VIEW" />
+146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+147
+148                <category android:name="android.intent.category.DEFAULT" />
+148-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+148-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+149                <category android:name="android.intent.category.BROWSABLE" />
+149-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+149-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+150
+151                <data
+151-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+152                    android:host="firebase.auth"
+152-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+153                    android:path="/"
+153-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+154                    android:scheme="recaptcha" />
+154-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+155            </intent-filter>
+156        </activity>
+157
+158        <service
+158-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+159            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+159-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+160            android:enabled="true"
+160-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+161            android:exported="false" >
+161-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+162            <intent-filter>
+162-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+163                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+163-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+163-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+164
+165                <category android:name="android.intent.category.DEFAULT" />
+165-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+165-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\ba8fcffe58bcc7c8ef10c7762f51b2da\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+166            </intent-filter>
+167        </service>
+168
+169        <provider
+169-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\83e25a8df802dd19e5404f0bb88ffd79\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+170            android:name="com.google.firebase.provider.FirebaseInitProvider"
+170-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\83e25a8df802dd19e5404f0bb88ffd79\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+171            android:authorities="com.example.cleanitapp.firebaseinitprovider"
+171-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\83e25a8df802dd19e5404f0bb88ffd79\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+172            android:directBootAware="true"
+172-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\83e25a8df802dd19e5404f0bb88ffd79\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+173            android:exported="false"
+173-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\83e25a8df802dd19e5404f0bb88ffd79\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+174            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+174-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\83e25a8df802dd19e5404f0bb88ffd79\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+175        <uses-library
+175-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\bffd96b79879dc6826fbcfb4d35e4308\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+176            android:name="org.apache.http.legacy"
+176-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\bffd96b79879dc6826fbcfb4d35e4308\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+177            android:required="false" />
+177-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\bffd96b79879dc6826fbcfb4d35e4308\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+178
+179        <activity
+179-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\51a2db97f7713d6718009c1f56a77672\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+180            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+180-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\51a2db97f7713d6718009c1f56a77672\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+181            android:exported="false"
+181-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\51a2db97f7713d6718009c1f56a77672\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+182            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+182-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\51a2db97f7713d6718009c1f56a77672\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+183
+184        <meta-data
+184-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\bc1a929e91d84da54d4cb81d39cbeff5\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+185            android:name="com.google.android.gms.version"
+185-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\bc1a929e91d84da54d4cb81d39cbeff5\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+186            android:value="@integer/google_play_services_version" />
+186-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Ananya\.gradle\caches\transforms-2\files-2.1\bc1a929e91d84da54d4cb81d39cbeff5\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+187    </application>
+188
+189</manifest>

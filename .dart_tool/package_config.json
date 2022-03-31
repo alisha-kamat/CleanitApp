@@ -158,6 +158,24 @@
       "languageVersion": "2.16"
     },
     {
+      "name": "firebase_database",
+      "rootUri": "file:///C:/Users/Ananya/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/firebase_database-9.0.8",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_database_platform_interface",
+      "rootUri": "file:///C:/Users/Ananya/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/firebase_database_platform_interface-0.2.1+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_database_web",
+      "rootUri": "file:///C:/Users/Ananya/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/firebase_database_web-0.2.0+7",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///C:/src/flutter/packages/flutter",
       "packageUri": "lib/",
@@ -536,7 +554,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2022-03-30T13:52:26.988398Z",
+  "generated": "2022-03-31T02:27:52.911124Z",
   "generator": "pub",
   "generatorVersion": "2.16.0"
 }

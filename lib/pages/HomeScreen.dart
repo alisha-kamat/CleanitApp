@@ -1,3 +1,6 @@
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_database/firebase_database.dart';
+import 'package:firebase_database/ui/firebase_animated_list.dart';
 import 'package:flutter/material.dart';
 import 'package:cleanitapp/data/data.dart';
 import 'package:cleanitapp/pages/profile_page.dart';
@@ -8,11 +11,14 @@ import 'package:cleanitapp/data/add_event.dart';
 import 'package:cleanitapp/pages/Maps.dart';
 
 class HomeScreen extends StatefulWidget {
+  // HomeScreen({required this.app});
+  // final FirebaseApp app;
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  final referenceDatabase = FirebaseDatabase.instance;
 
   List<DateModel> dates = <DateModel>[];
   List<EventTypeModel> eventsType = [];
@@ -20,14 +26,17 @@ class _HomeScreenState extends State<HomeScreen> {
 
 
   String todayDateIs = "12";
-
+ late DatabaseReference _EventsRef;
   @override
   void initState() {
     // TODO: implement initState
+    final FirebaseDatabase database = FirebaseDatabase.instance;
+     _EventsRef = database.ref().child('Events');
     super.initState();
     dates = getDates();
     eventsType = getEventTypes();
     events = getEvents();
+
   }
 
 
@@ -35,6 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final ref = referenceDatabase.ref();
     return Scaffold(
       body: Container(
         child: Stack(
@@ -176,20 +186,64 @@ class _HomeScreenState extends State<HomeScreen> {
                         color: Colors.white,
                         fontSize: 20
                     ),),
-                    Container(
-                      child: ListView.builder(
-                        itemCount: events.length,
-                          shrinkWrap: true,
-                          itemBuilder: (context, index){
-                          return UpcomingEventTile(
-                            desc: events[index].desc,
-                            imgeAssetPath: events[index].imgeAssetPath,
-                            date: events[index].date,
-                            address: events[index].address,
-                          );
+                     ListView.builder(
+                          itemCount: events.length,
+                            shrinkWrap: true,
+                            itemBuilder: (context, index){
+                            return ElevatedButton(
+                              child: Spacer(),
+                              onPressed: (){
+                               var keystr= ref
+                                .child('Events')
+                                    .push().key;
+                                  ref.child('Events').child(keystr.toString()).child('desc')
+                                    .set(events[index].desc)
+                                    .asStream();
+                                  ref.child('Events').child(keystr.toString()).child('imgeAssetPath')
+                                    .set(events[index].imgeAssetPath)
+                                    .asStream();
+                                  ref.child('Events').child(keystr.toString()).child('date')
+                                    .set(events[index].date)
+                                    .asStream();
+                                  ref.child('Events').child(keystr.toString()).child('address')
+                                    .set(events[index].address)
+                                    .asStream();
+                                  // ref.
 
-                          }),
-                    )
+                              },
+                            );
+
+                            }),
+                    ListView.builder(
+                          itemCount: 1,
+                            shrinkWrap: true,
+                            itemBuilder: (context, index){
+                               return Flexible(
+                                   child: FirebaseAnimatedList(
+                                  shrinkWrap: true,
+                                  query: _EventsRef, itemBuilder: (BuildContext context,
+                                  DataSnapshot snapshot,
+                                  Animation animation,
+                                  int index)
+                              {
+                                return
+                                   UpcomingEventTile(
+
+                                        desc: snapshot.child('desc').value.toString(),
+                                        imgeAssetPath: snapshot.child('imgeAssetPath').value.toString(),
+                                        date: snapshot.child('date').value.toString(),
+                                        address: snapshot.child('address').value.toString()+index.toString(),
+
+                                      );
+
+
+
+                              })
+                              );
+                            }
+                            ),
+
+
                   ],
                 ),
               ),
