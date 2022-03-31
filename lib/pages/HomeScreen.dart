@@ -10,6 +10,7 @@ import 'package:cleanitapp/models/events_model.dart';
 import 'package:cleanitapp/data/add_event.dart';
 import 'package:cleanitapp/pages/Maps.dart';
 import 'package:cleanitapp/pages/UploadPage.dart';
+import 'package:cleanitapp/pages/EventPage.dart';
 
 class HomeScreen extends StatefulWidget {
   // HomeScreen({required this.app});
@@ -244,6 +245,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
                                 })
                                 );
+
                               }
                               ),
 
@@ -345,40 +347,46 @@ class UpcomingEventTile extends StatelessWidget {
       child: Row(
         children: <Widget>[
           Expanded(
-            child: Container(
-              padding: EdgeInsets.only(left: 16),
-              width: MediaQuery.of(context).size.width - 100,
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: <Widget>[
-                  Text(desc, style: TextStyle(
-                      color: Colors.black,
-                    fontSize: 18
-                  ),),
-                  SizedBox(height: 8,),
-                  Row(
-                    children: <Widget>[
-                      Image.asset("assets/calender.png", height: 12,),
-                      SizedBox(width: 8,),
-                      Text(date, style: TextStyle(
+            child: ElevatedButton(
+              onPressed: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context) => EventPage()));
+
+              },
+              child: Container(
+                padding: EdgeInsets.only(left: 16),
+                width: MediaQuery.of(context).size.width - 100,
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text(desc, style: TextStyle(
+                        color: Colors.black,
+                      fontSize: 18
+                    ),),
+                    SizedBox(height: 8,),
+                    Row(
+                      children: <Widget>[
+                        Image.asset("assets/calender.png", height: 12,),
+                        SizedBox(width: 8,),
+                        Text(date, style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 10
+                        ),)
+                      ],
+                    ),
+                    SizedBox(height: 4,),
+                    Row(
+                      children: <Widget>[
+                        Image.asset("assets/location.png", height: 12,),
+                        SizedBox(width: 8,),
+                        Text(address, style: TextStyle(
                           color: Colors.black,
                           fontSize: 10
-                      ),)
-                    ],
-                  ),
-                  SizedBox(height: 4,),
-                  Row(
-                    children: <Widget>[
-                      Image.asset("assets/location.png", height: 12,),
-                      SizedBox(width: 8,),
-                      Text(address, style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 10
-                      ),)
-                    ],
-                  ),
-                ],
+                        ),)
+                      ],
+                    ),
+                  ],
+                ),
               ),
             ),
           ),
