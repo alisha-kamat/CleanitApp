@@ -15,7 +15,7 @@ void main() async {
   runApp(MaterialApp(
   initialRoute: '/',
   routes:<String, WidgetBuilder> {
-    '/':(BuildContext context) => HomeScreen(),
+    '/':(BuildContext context) => Info(),
     '/SignUp':(BuildContext context) => SignUp(),
     '/Maps':(BuildContext context) => Maps(),
     '/UploadPage':(BuildContext context) => UploadPage(),
