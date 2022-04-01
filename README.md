@@ -48,9 +48,9 @@ Once done, the cleanup task for that area will be marked as completed.
      <td><b>Info Page 3 </b></td>
   </tr>
   <tr>
-    <td><img src = "https://github.com/ananya-bangera/CleanitApp/blob/main/images/InfoPage1.jpeg" width = 500></td>
-     <td><img src = "https://github.com/ananya-bangera/CleanitApp/blob/main/images/InfoPage2.jpeg" width = 500></td>
-     <td><img src = "https://github.com/ananya-bangera/CleanitApp/blob/main/images/InfoPage3.jpeg" width = 500></td>
+    <td><img src = "https://github.com/alisha-kamat/CleanitApp/blob/main/images/InfoPage1.jpeg" width = 500></td>
+     <td><img src = "https://github.com/alisha-kamat/CleanitApp/blob/main/images/InfoPage2.jpeg" width = 500></td>
+     <td><img src = "https://github.com/alisha-kamat/CleanitApp/blob/main/images/InfoPage3.jpeg" width = 500></td>
   </tr>
  </table>
  <br>
@@ -64,8 +64,8 @@ Once done, the cleanup task for that area will be marked as completed.
      <td><b>Profile Page </b></td>
   </tr>
   <tr>
-    <td><img src = "https://github.com/ananya-bangera/CleanitApp/blob/main/images/Login.jpeg" width = 500></td>
-    <td><img src = "https://github.com/ananya-bangera/CleanitApp/blob/main/images/ProfilePage.jpeg" width = 500></td>
+    <td><img src = "https://github.com/alisha-kamat/CleanitApp/blob/main/images/Login.jpeg" width = 500></td>
+    <td><img src = "https://github.com/alisha-kamat/CleanitApp/blob/main/images/ProfilePage.jpeg" width = 500></td>
   </tr>
  </table>
  <br>
@@ -80,9 +80,9 @@ Once done, the cleanup task for that area will be marked as completed.
      <td><b> Map </b></td>
   </tr>
   <tr>
-    <td><img src = "https://github.com/ananya-bangera/Music_Mania/blob/main/images/Events.jpeg" width = 500></td>
-    <td><img src = "https://github.com/ananya-bangera/Music_Mania/blob/main/images/AddEvents.jpeg" width = 500></td>
-     <td><img src = "https://github.com/ananya-bangera/Music_Mania/blob/main/images/Map.jepeg" width = 500></td>
+    <td><img src = "https://github.com/alisha-kamat/CleanitApp/blob/main/images/Events.jpeg" width = 500></td>
+    <td><img src = "https://github.com/alisha-kamat/CleanitApp/blob/main/images/AddEvents.jpeg" width = 500></td>
+     <td><img src = "https://github.com/alisha-kamat/CleanitApp/blob/main/images/Map.jepeg" width = 500></td>
   </tr>
  </table>
  <br>
