@@ -64,8 +64,8 @@ Once done, the cleanup task for that area will be marked as completed.
      <td><b>Profile Page </b></td>
   </tr>
   <tr>
-    <td><img src = "https://github.com/alisha-kamat/CleanitApp/blob/main/images/Login.jpeg" width = 500></td>
-    <td><img src = "https://github.com/alisha-kamat/CleanitApp/blob/main/images/ProfilePage.jpeg" width = 500></td>
+    <td><img src = "https://github.com/alisha-kamat/CleanitApp/blob/main/images/Login.jpeg" width = 300></td>
+    <td><img src = "https://github.com/alisha-kamat/CleanitApp/blob/main/images/ProfilePage.jpeg" width = 300></td>
   </tr>
  </table>
  <br>
@@ -82,14 +82,14 @@ Once done, the cleanup task for that area will be marked as completed.
   <tr>
     <td><img src = "https://github.com/alisha-kamat/CleanitApp/blob/main/images/Events.jpeg" width = 500></td>
     <td><img src = "https://github.com/alisha-kamat/CleanitApp/blob/main/images/AddEvents.jpeg" width = 500></td>
-     <td><img src = "https://github.com/alisha-kamat/CleanitApp/blob/main/images/Map.jepeg" width = 500></td>
+     <td><img src = "https://github.com/alisha-kamat/CleanitApp/blob/main/images/Map.jpeg" width = 500></td>
   </tr>
  </table>
  <br>
 
 <br>
 ## Team Members
-- [Alisha Kamat](https://github.com/alisha-kamat)
-- [Ananya Bangera](https://github.com/ananya-bangera)
-- [Aayush Mehta](https://github.com/AayushM8)
-- [Siddhant Sontakke](https://github.com/Siddhant109)
+- [Alisha Kamat](https://github.com/alisha-kamat) <br>
+- [Ananya Bangera](https://github.com/ananya-bangera) <br>
+- [Aayush Mehta](https://github.com/AayushM8) <br>
+- [Siddhant Sontakke](https://github.com/Siddhant109) <br>
