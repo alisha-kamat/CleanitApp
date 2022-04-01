@@ -88,8 +88,9 @@ Once done, the cleanup task for that area will be marked as completed.
  <br>
 
 <br>
-## Team Members <br>
-- [Alisha Kamat](https://github.com/alisha-kamat) <br>
-- [Ananya Bangera](https://github.com/ananya-bangera) <br>
-- [Aayush Mehta](https://github.com/AayushM8) <br>
-- [Siddhant Sontakke](https://github.com/Siddhant109) <br>
+
+## Team Members 
+- [Alisha Kamat](https://github.com/alisha-kamat) 
+- [Ananya Bangera](https://github.com/ananya-bangera) 
+- [Aayush Mehta](https://github.com/AayushM8) 
+- [Siddhant Sontakke](https://github.com/Siddhant109) 
