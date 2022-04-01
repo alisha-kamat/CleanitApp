@@ -39,7 +39,55 @@ Once done, the cleanup task for that area will be marked as completed.
 
 
 ## Screenshots
+<b></b>
+ <br>
+<table>
+  <tr>
+    <td><b> Info Page 1 </b></td>
+     <td><b>Info Page 2 </b></td>
+     <td><b>Info Page 3 </b></td>
+  </tr>
+  <tr>
+    <td><img src = "https://github.com/ananya-bangera/CleanitApp/blob/main/images/InfoPage1.jpeg" width = 500></td>
+     <td><img src = "https://github.com/ananya-bangera/CleanitApp/blob/main/images/InfoPage2.jpeg" width = 500></td>
+     <td><img src = "https://github.com/ananya-bangera/CleanitApp/blob/main/images/InfoPage3.jpeg" width = 500></td>
+  </tr>
+ </table>
+ <br>
 
+<br>
+<b></b>
+ <br>
+<table>
+  <tr>
+    <td><b> Login Page </b></td>
+     <td><b>Profile Page </b></td>
+  </tr>
+  <tr>
+    <td><img src = "https://github.com/ananya-bangera/CleanitApp/blob/main/images/Login.jpeg" width = 500></td>
+    <td><img src = "https://github.com/ananya-bangera/CleanitApp/blob/main/images/ProfilePage.jpeg" width = 500></td>
+  </tr>
+ </table>
+ <br>
+
+<br>
+<b></b>
+ <br>
+<table>
+  <tr>
+    <td><b> Events </b></td>
+     <td><b> Add Events </b></td>
+     <td><b> Map </b></td>
+  </tr>
+  <tr>
+    <td><img src = "https://github.com/ananya-bangera/Music_Mania/blob/main/images/Events.jpeg" width = 500></td>
+    <td><img src = "https://github.com/ananya-bangera/Music_Mania/blob/main/images/AddEvents.jpeg" width = 500></td>
+     <td><img src = "https://github.com/ananya-bangera/Music_Mania/blob/main/images/Map.jepeg" width = 500></td>
+  </tr>
+ </table>
+ <br>
+
+<br>
 ## Team Members
 - [Alisha Kamat](https://github.com/alisha-kamat)
 - [Ananya Bangera](https://github.com/ananya-bangera)
