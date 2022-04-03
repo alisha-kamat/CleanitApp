@@ -3,7 +3,7 @@
 </h1>
 <div align="center">
   <strong>CleanitApp</strong> - Helps in cleanup of local areas on a volunteering basis<br>
-  Solution Challenge 2022<br><br>
+  Google Solution Challenge 2022<br><br>
 </div>
 <hr>
 
